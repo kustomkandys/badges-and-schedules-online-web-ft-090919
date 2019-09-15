@@ -13,8 +13,8 @@ def assign_rooms(speakers)
   end
 end
 
-def printer(array)
-  array.map do 
+def printer(attendees)
+  attendees.map do 
     puts "#{batch_badge_creator(attendees)}" + "#{assign_rooms(speakers)}"
   end
 end
